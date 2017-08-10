@@ -15,4 +15,10 @@ dotnet ef database update
 添加文件到Git 仓库： git add fileName 可以多次使用，添加多个文件
 <br>
 使用git commit命令提交到git:  git commit
+<br>
+查看工作区的状态: git status
+<br>
+如果状态说文件被修改过：  使用 git diff  查看被修改的内容
+<br>
+
 
