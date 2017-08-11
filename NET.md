@@ -71,3 +71,11 @@ git add 命令实际上是要把提交的所有更改放到了暂存区（Stage)
 <br>
 完成之后，在用户主目录中会有有一个 .ssh的文件夹，里面有id_rsa和id_rsa.pub两个文件，id_rsa是私钥，不能泄露 ，id_rsa是共钥，可以谁便说 反正没私钥也没啥用
 <br>然后就在gitHub 中添加这个公钥吧。GitHub只有知道了你的工钥才能知道这个文件是你自己推送的
+
+<h4>添加远程仓库</h4>
+要关联一个远程库，使用命令：git remote add origin(注释) git@server-name:path/repo-name.git
+<br> 
+origin:远程库的名字就是origin，这是Git默认的叫法，也可以改成别的
+<br>关联远程库之后使用，命令：git push -u origin master  第一次推送master的所有的内容；   -u参数，不但会推送，还会关联master分支
+<br>
+以后，每次提交后，只要有需要，就可以使用命令：git push origin master 推送最新修改
