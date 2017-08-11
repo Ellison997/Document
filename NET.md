@@ -41,6 +41,15 @@ git add 命令实际上是要把提交的所有更改放到了暂存区（Stage)
 <h4>管理修改</h4>
 每次修改，如果不add到暂存区，那就不会加入到commit中
 
+<h4> 撤销修改</h4>
+在还没add到暂存区之前
+使用 git checkout --file 可以让这个文件回到最近一次 git commit 或者 git add时的状态
+<br>
+乱改了工作区的某个文件内容，又添加到了暂存区，想要丢弃更改。要分两部
+<br>
+第一个命令：git reset HEAD file(文件名)，就把文件从暂存区清除了
+<br>  
+然后再执行  git checkout -- file 回到。。。。。状态
 
 
 
