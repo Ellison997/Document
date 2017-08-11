@@ -61,3 +61,13 @@ git add 命令实际上是要把提交的所有更改放到了暂存区（Stage)
 <br>
 想要彻底删除这个文件？   使用 git rm file(文件名) 再git commit 提交
 
+<h4>远程仓库</h4>
+可以使用gitHub ，也可以自己搭建git服务器
+<br>
+使用githun：创建SSH Key 创建了之后再“用户”主目录下会有一个.ssh的文件夹
+<br>
+如果没有，使用 Git Bash 创建SSH Key：
+<br> ssh-keygen -t rsa -C "chuntain997@gmail.com"  一路回车就行，没啥重要的无需设置密码
+<br>
+完成之后，在用户主目录中会有有一个 .ssh的文件夹，里面有id_rsa和id_rsa.pub两个文件，id_rsa是私钥，不能泄露 ，id_rsa是共钥，可以谁便说 反正没私钥也没啥用
+<br>然后就在gitHub 中添加这个公钥吧。GitHub只有知道了你的工钥才能知道这个文件是你自己推送的
