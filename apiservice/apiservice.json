@@ -1,0 +1,14 @@
+{
+    "apps": [{
+        "name": "lims_yunnan",
+        "script": "/roms/node_server/lims_yunnan/apiservice/app.js",
+        "cwd": "/roms/node_server/lims_yunnan/apiservice",
+        "watch": [
+            "bin",
+            "config",
+            "routes"
+        ],
+        "error_file": "./logs/pm2-err.log",
+        "log_date_format": "YYYY-MM-DD HH:mm:ss Z"
+    }]
+}

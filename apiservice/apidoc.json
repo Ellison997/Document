@@ -1,0 +1,13 @@
+{
+    "name": "yunnanlims-server",
+    "version": "1.0.0",
+    "description": "云南lims 接口文档",
+    "title": "云南lims API",
+    "url": "http://localhost:2020",
+    "sampleUrl": "http://localhost:2020",
+    "forceLanguage": "zh-cn",
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}
