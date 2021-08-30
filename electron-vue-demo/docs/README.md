@@ -4,7 +4,7 @@ heroImage: /assets/img/logo.jpg
 heroText: Electron-Vue-Demo
 tagline: Electron-Vue-Demo 快速上手
 actionText: 快速上手 →
-actionLink: /introduction/
+actionLink: /document/
 features:
 - title: 开箱即用
   details: 集成 sqlite3、serialport、electron-update、axios、echarts等常用模块，在此基础上开发可快速实现需求。

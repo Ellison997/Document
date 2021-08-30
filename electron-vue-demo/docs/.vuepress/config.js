@@ -19,11 +19,10 @@ module.exports = {
             // { text: 'Github', link: 'https://github.com/Ellison997/Electron-Vue-Demo' },
         ],
         sidebar: {
-            '/document/': [{
+            '/document/': ['', {
                 title: '模块',
                 collapsable: false,
                 children: [
-                    '',
                     'sqlite3',
                     'serialport',
                 ]
