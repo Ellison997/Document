@@ -26,19 +26,51 @@ module.exports = {
             // { text: 'Github', link: 'https://github.com/Ellison997/Document/tree/main/developing-guideline' },
         ],
         sidebar: {
-            '/document/': ['', {
-                title: '模块',
+            '/specification/': ['', {
+                title: '命名规范',
                 collapsable: false,
                 children: [
-                    'sqlite3',
-                    'serialport',
+                    'name_dir',
+                    'name_image',
+                    'name_htmlcss',
+                    'name_classname'
                 ]
             }, {
-                title: '疑难解答',
+                title: 'HTML规范',
                 collapsable: false,
                 children: [
-                    'sqlite3',
-                    'serialport',
+                    'html_code',
+                    'html_note',
+                    'html_template',
+                    'html_webapp'
+                ]
+            }, {
+                title: 'CSS规范',
+                collapsable: false,
+                children: [
+                    'css_code',
+                    'css_note',
+                    'css_query',
+                    'css_reset',
+                    'css_sass',
+                    'css_webkit'
+                ]
+            }, {
+                title: 'JavaScript 规范',
+                collapsable: false,
+                children: [
+                    'js_code',
+                    'js_language',
+                    'js_vue'
+                ]
+            }, {
+                title: '图片规范',
+                collapsable: false,
+                children: [
+                    'image_format',
+                    'image_import',
+                    'image_quality',
+                    'image_size',
                 ]
             }]
         },
