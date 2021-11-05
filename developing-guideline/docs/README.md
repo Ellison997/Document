@@ -4,7 +4,7 @@ heroImage: /assets/img/logo.png
 heroText: 湘亭科技软件开发指南
 tagline: 你的代码应该是给下一个开发者的情书，而不是战书……
 actionText: 快速上手 →
-actionLink: /document/
+actionLink: /specification/
 features:
 - title: 编程规约
   details: 为实现代码一致性和最佳实践，通过代码风格的一致性，降低维护代码的成本以及改善多人协作的效率。

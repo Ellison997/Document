@@ -23,6 +23,9 @@ module.exports = {
             { text: 'Git', link: '/git/' },
             { text: '移动端', link: '/mobile/' },
             { text: '服务器', link: '/server/' },
+            { text: '网络安全', link: '/safety/' },
+            { text: '测试', link: '/test/' },
+            { text: '技术分享', link: '/sharing/' },
             // { text: 'Github', link: 'https://github.com/Ellison997/Document/tree/main/developing-guideline' },
         ],
         sidebar: {
