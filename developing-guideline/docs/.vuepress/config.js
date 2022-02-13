@@ -17,6 +17,7 @@ module.exports = {
             { text: '首页', link: '/' },
             { text: '编程规约', link: '/specification/' },
             { text: 'Vue', link: '/vue/' },
+            { text: 'React', link: '/react/' },
             { text: 'Node.js', link: '/nodejs/' },
             { text: 'Android', link: '/android/' },
             { text: 'Electron', link: '/electron/' },
@@ -74,6 +75,13 @@ module.exports = {
                     'image_import',
                     'image_quality',
                     'image_size',
+                ]
+            }],
+            '/react/': ['', {
+                title: 'React基础',
+                collapsable: false,
+                children: [
+                    'basics_character'
                 ]
             }]
         },
